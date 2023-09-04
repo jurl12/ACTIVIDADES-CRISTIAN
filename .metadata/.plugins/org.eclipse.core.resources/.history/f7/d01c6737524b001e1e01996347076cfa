@@ -1,0 +1,21 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class trabajo2 {
+
+    public static void main(String[] args) {
+        String input1 = JOptionPane.showInputDialog("ingrese el numero");
+        int numero = Integer.parseInt(input1);
+    }
+
+    public static void imprimirSiEsMayorQue10(int numero) {
+        if (numero > 10) {
+            System.out.println("El número " + numero + " es mayor que 10");
+        } else {
+            System.out.println("El número " + numero + " no es mayor que 10	");
+        }
+    }
+}

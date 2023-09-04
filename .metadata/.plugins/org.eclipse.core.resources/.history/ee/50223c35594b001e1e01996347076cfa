@@ -1,0 +1,13 @@
+package ejercicios;
+
+import javax.swing.JOptionPane;
+
+public class trabajo1 {
+public static void main(String[]args){
+	String nombre = JOptionPane.showInputDialog("ingrrese su nombre");
+	String apellido = JOptionPane.showInputDialog("ingrese su apellido");
+	pedirnombre(nombre,apellido);
+}public static void pedirnombre(String nombre, String apellido) {
+	System.out.println("Su nombre completo es"+nombre+ apellido);
+}
+}

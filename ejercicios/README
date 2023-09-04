@@ -1,0 +1,35 @@
+¿Qué es un método en Java? En Java, un método es un bloque de código que realiza una tarea específica o ejecuta una serie de instrucciones. Los métodos son parte fundamental de la programación orientada a objetos (POO) y se utilizan para encapsular la lógica y la funcionalidad de un programa. Los métodos se definen dentro de clases y pueden ser invocados (llamados) desde otras partes del código. ¿Cuáles son los cuatro tipos de métodos en Java? En Java, los métodos se pueden clasificar en cuatro tipos principales: Métodos sin parámetros y sin retorno: Estos métodos no toman argumentos y no devuelven ningún valor (us¿Qué es un método en Java?
+En Java, un método es un bloque de código que realiza una tarea específica o ejecuta una serie de instrucciones. Los métodos son parte fundamental de la programación orientada a objetos (POO) y se utilizan para encapsular la lógica y la funcionalidad de un programa. Los métodos se definen dentro de clases y pueden ser invocados (llamados) desde otras partes del código.
+
+¿Cuáles son los cuatro tipos de métodos en Java?
+En Java, los métodos se pueden clasificar en cuatro tipos principales:
+
+Métodos sin parámetros y sin retorno: Estos métodos no toman argumentos y no devuelven ningún valor (usando void como tipo de retorno).
+Métodos con parámetros y sin retorno: Estos métodos toman uno o más argumentos pero no devuelven un valor.
+Métodos sin parámetros y con retorno: Estos métodos no toman argumentos pero devuelven un valor.
+Métodos con parámetros y con retorno: Estos métodos toman uno o más argumentos y devuelven un valor.
+¿Cuál es la diferencia entre un método con parámetros y sin retorno y un método sin parámetros y con retorno?
+
+Un método con parámetros y sin retorno toma argumentos que se utilizan dentro del método para realizar alguna acción, pero no devuelve ningún valor al final. Se declara con void como tipo de retorno.
+Un método sin parámetros y con retorno no toma argumentos, pero realiza una acción y devuelve un valor al final, que puede ser de cualquier tipo de dato válido en Java.
+¿Cuál es la diferencia entre un método con parámetros y con retorno y un método con parámetros y sin retorno?
+
+Un método con parámetros y con retorno toma uno o más argumentos y realiza una acción, pero también devuelve un valor al final, que puede ser de cualquier tipo de dato válido en Java.
+Un método con parámetros y sin retorno toma uno o más argumentos y realiza una acción, pero no devuelve ningún valor (usando void como tipo de retorno).
+¿Por qué son importantes los métodos en Java?
+Los métodos son importantes en Java y en la programación en general por varias razones:
+
+Facilitan la organización y estructuración del código al dividir tareas en funciones más pequeñas y manejables.
+Promueven la reutilización del código, ya que un método puede ser llamado múltiples veces desde diferentes partes del programa.
+Mejoran la legibilidad y mantenibilidad del código al encapsular la lógica en bloques separados.
+Permiten la abstracción al ocultar los detalles de implementación y exponer solo una interfaz de uso.
+¿Qué es una estructura de datos?
+Una estructura de datos es una forma de organizar y almacenar datos en la memoria de una computadora de manera eficiente para que puedan ser accedidos y manipulados de manera efectiva. Las estructuras de datos proporcionan métodos para insertar, buscar, eliminar y actualizar datos de manera eficiente. Algunos ejemplos de estructuras de datos incluyen arreglos, listas enlazadas, pilas, colas, árboles y grafos.
+
+¿Cuál es la diferencia entre un arreglo, un ArrayList y un HashMap?
+
+Arreglo (Array): Es una estructura de datos estática que almacena elementos del mismo tipo en una secuencia contigua de memoria. Los arreglos tienen un tamaño fijo y deben definirse con anticipación. Acceder a los elementos es rápido, pero agregar o eliminar elementos puede ser costoso en términos de rendimiento y requerir la creación de un nuevo arreglo.
+
+ArrayList: Es una estructura de datos dinámica que implementa una lista redimensionable. Puede almacenar elementos de diferentes tipos y crecer o reducir su tamaño automáticamente según sea necesario. Proporciona métodos para agregar, eliminar y acceder a elementos de manera eficiente.
+
+HashMap: Es una estructura de datos que almacena pares clave-valor. Permite la búsqueda eficiente de valores asociados con una clave dada. Los HashMap no mantienen un orden específico de los elementos y pueden contener claves duplicadas. Son útiles cuando se necesita acceder a datos rápidamente a través de una clave.

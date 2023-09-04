@@ -1,0 +1,14 @@
+package ejercicios;
+public class ejercicio1 {
+
+    public static void main(String[] args) {
+        imprimirnombre();
+    }
+
+    public static void imprimirnombre() {
+        String nombre = "Jorge Andres";
+        String apellido = "Beltran Bejarano";
+
+        System.out.println("Su Nombre Completo Es: " + nombre + " " + apellido);
+    }
+}

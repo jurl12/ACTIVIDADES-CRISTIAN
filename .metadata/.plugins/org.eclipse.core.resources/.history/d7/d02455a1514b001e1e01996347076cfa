@@ -1,0 +1,25 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class trabajo2 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese un número entero: ");
+        int numero = scanner.nextInt();
+
+        imprimirSiEsMayorQue10(numero);
+
+        scanner.close();
+    }
+
+    public static void imprimirSiEsMayorQue10(int numero) {
+        if (numero > 10) {
+            System.out.println("El número " + numero + " es mayor que 10");
+        } else {
+            System.out.println("El número " + numero + " no es mayor que 10	");
+        }
+    }
+}

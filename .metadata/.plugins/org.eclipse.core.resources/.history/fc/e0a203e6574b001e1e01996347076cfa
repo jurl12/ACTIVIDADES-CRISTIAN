@@ -1,0 +1,26 @@
+package ejercicios;
+
+public class trabajo4 {
+
+    public static void main(String[] args) {
+        int[] arreglo = {100, 12, 7, 28, 9, 14};
+        int maximo = encontrarMaximo(arreglo);
+        System.out.println("El valor máximo en el arreglo es: " + maximo);
+    }
+
+    public static int encontrarMaximo( arreglo) {
+        if (arreglo.length == 0) {
+            throw new IllegalArgumentException("El arreglo está vacío.");
+        }
+
+        int maximo = Integer.MIN_VALUE; // Inicializar el máximo con el valor mínimo posible
+
+        for (int elemento : arreglo) {
+            if (elemento > maximo) {
+                maximo = elemento;
+            }
+        }
+
+        return maximo;
+    }
+}
